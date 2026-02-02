@@ -1,6 +1,6 @@
 s = input()
 
-while len(s) < 10:
+while len(s) < 10: #
     if len(s) % 4 == 0:
         s = s + 'y'
     elif len(s) % 5 == 0:
